@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style_version2.css">
+<base target="_blank">
+<title>Anıl Çamcı</title>
+</head>
+
+<script>
+	function expand(element) {
+		var x = element.parentNode.children[1];
+		var y = element;
+		if (x.style.display === 'none') {
+				y.setAttribute("data-text-original", y.innerHTML);
+				y.innerHTML = y.getAttribute("data-text-swap");
+				x.style.display = 'inline';
+		} else {
+				y.innerHTML = y.getAttribute("data-text-original");
+				x.style.display = 'none';
+		}
+	}
+</script>
+
+<body>
+  <div id="title">Anıl Çamcı</div>
+	<div id="menu">
+		<span class="active">Spotlight</span>
+		<span class="inactive"><a href="art.html">Art</a></span>
+		<span class="inactive"><a href="research.html">Researh</a></span>
+		<span class="inactive"><a href="teaching.html">Teaching</a></span>
+	</div>
+	<div id="bio-container">
+	  <div class="bio" id="short">I am an Assistant Professor of <a
+	  href="https://smtd.umich.edu/pat/">Performing Arts Technology</a> at the
+	  Univesity of Michigan. I investigate ways of worldmaking through multimedia
+	  artworks and research in the areas of virtual reality, human-computer
+	  interaction, and spatial audio. Before joining the University of Michigan, I was
+	  a Postdoctoral Research Associate at the University of Illinois at Chicago's
+	  <a href="https://www.evl.uic.edu">Electronic Visualization Laboratory</a>,
+	  where I lead research into immersive systems. Prior to this appointment, I
+	  was a faculty member of the Istanbul Technical University, Center for
+	  Advanced Studies in Music, where I founded the <a
+	  href="https://www.facebook.com/MiamSonicArts/">Sonic Arts Program</a>. I
+	  conducted my PhD research at Leiden University's <a
+	  href="https://www.universiteitleiden.nl/en/humanities/academy-of-creative-and-performing-arts">Academy
+	  of Creative and Performing Arts</a>, in affiliation with the <a
+	  href="http://www.sonology.org">Institute of Sonology</a> in The Hague, and
+	  the <a href="https://www.tudelft.nl/en/ide/">Industrial Design
+	  Department</a> at Delft University of Technology. I studied Multimedia
+	  Engineering at the University of California, Santa Barbara's <a
+	  href="https://www.mat.ucsb.edu">Media Arts and Technology Department</a>. My
+	  works have been presented throughout the world in leading journals, conferences,
+	  exhibitons, and performances. I have been awarded various grants and
+	  scholarships including the Audio Engineering Society Fellowship and the ACM
+	  CHI Artist Grant.</div>
+	</div>
+
+	<div id="works">
+		<div id="work-container">
+			<img id="work-image" src="media/synthCity.jpg">
+			<div id="work-title" style="background-color:#33727a;">Synthcity<span style="font-size: 0.8rem; vertical-align: middle;"> [2017]</span> </div>
+			<div id="work-description-container" style="background-color:#33727a;">
+				<div class="work-description" id="short"> Synthcity is a generative audiovisual
+				installation. By computationally blending everyday figures and textures, it
+				synthesizes extremely unrealistic versions of a city using its real
+				landscapes, objects, sounds and people. Synthcity was premiered at ISEA
+				2017 in Manzales, Colombia. </div>
+			</div>
+		</div>
+
+		<div id="work-container" style="float:right;">
+			<img id="work-image" src="media/temas.png">
+			<div id="work-title" style="background-color:#2d879e;">Temas<span style="font-size: 0.8rem; vertical-align: middle;"> [2016]</span> </div>
+			<div id="work-description-container" style="background-color:#2d879e;">
+				<div class="work-description"> Temas is a stochastic audiovisual
+				performance. The software underlying Temas integrates the artist into a
+				generative system as a module of analysis. The most recent version of Temas was premiered at the Experimental Sound Studio in Chicago in November 2016.</div>
+			</div>
+		</div>
+
+		<div id="work-container">
+			<img id="work-image" src="media/vylderness.jpg">
+			<div id="work-title" style="background-color:#00b8c6">Vylderness<span style="font-size: 0.8rem; vertical-align: middle;"> [2019]</span> </div>
+			<div id="work-description-container" style="background-color:#00b8c6">
+				<div class="work-description" id="short"> Temas is a stochastic audiovisual
+				performance. The software underlying Temas integrates the artist into a
+				generative system as a module of analysis. The most recent version of Temas was premiered at the Experimental Sound Studio in Chicago in November 2016.</div>
+			</div>
+		</div>
+
+		<div id="work-container" style="float:right;">
+			<img id="work-image" src="media/inviso.png">
+			<div id="work-title" style="background-color:#33727a;">Inviso<span style="font-size: 0.8rem; vertical-align: middle;"> [2017]</span> </div>
+			<div id="work-description-container" style="background-color:#33727a;">
+				<div class="work-description" id="short"> Synthcity is a generative audiovisual
+				installation. By computationally blending everyday figures and textures, it
+				synthesizes extremely unrealistic versions of a city using its real
+				landscapes, objects, sounds and people. Synthcity was premiered at ISEA
+				2017 in Manzales, Colombia. </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

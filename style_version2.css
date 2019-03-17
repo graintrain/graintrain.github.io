@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:500');
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	line-height: 1;
+	/* background-color:#EEE; */
+	background-color: #d4ff00;
+}
+
+#title{
+	position: relative;
+	float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-family: 'Nova Mono';
+  font-size: 2.5rem;
+  /*color: #d8366f;*/
+	color: #00b8c6;
+}
+
+#menu{
+	/* width: 100%; */
+	position: relative;
+	float: right;
+	margin-right: 30px;
+	margin-left: 15px;
+  margin-top: 20px;
+  font-family: 'Nova Mono';
+  font-size: 1.5rem;
+	vertical-align: bottom;
+}
+
+.active{
+	color: #d4ff00;
+	background-color: #00b8c6;
+	padding: 0px 5px 0px 5px;
+}
+.inactive{
+	color: #00b8c6;
+	padding: 0px 5px 0px 5px;
+	border-style: dashed;
+	border-width: thin;
+	border-color: #00b8c6;
+}
+
+.inactive:hover{
+	/* color: #d4ff00; */
+	color: #d4ff00;
+	background-color: #00b8c6;
+}
+
+#bio-container{
+	position: relative;
+	float: left;
+	/* width: 90%; */
+	margin: 30px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-family: 'Work Sans';
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 130%;
+	text-align: justify;
+	color: #111;
+	/*color: #d8366f;*/
+}
+
+.bio{
+	display: inline;
+}
+
+#works{
+	position: relative;
+	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #d4ff00;
+}
+
+#work-container{
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+#work-title{
+	position: relative;
+	font-family: 'Nova Mono';
+	font-size: 1.5rem;
+	padding: 2px;
+	padding-left: 30px;
+	padding-top: 10px;
+	/* padding-bottom: 30px; */
+	color: #EEE;
+	/*color: #00b8c6;
+	background-color: #d4ff00;*/
+	/*display: inline-block;*/
+}
+
+#work-image{
+	position: relative;
+	width:100%;
+}
+
+#work-description-container{
+	position: relative;
+	padding-left: 30px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	font-family: 'Work Sans';
+	font-weight: 300;
+	font-size: 1rem;
+	/* display: inline-block; */
+}
+
+.work-description{
+	width:100%;
+	position: relative;
+	line-height: 130%;
+	color: #EEE;
+	/* display: inline; */
+}
+
+a{
+  font-weight: 500;
+  text-decoration: none;
+	color: #00b8c6;
+	/*color: #d8366f;*/
+}
+a:hover {
+	color: #d4ff00;
+	background-color: #00b8c6;
+}
